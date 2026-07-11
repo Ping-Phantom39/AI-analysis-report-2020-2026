@@ -1,0 +1,114 @@
+model_id,model_name,organization,release_date,release_year,release_month,params_billions,active_params_billions,model_type,access_type,modality,training_cutoff_date,context_window_k_tokens
+M001,GPT-3 (175B),OpenAI,2020-06-11,2020,6,175.0,175.0,base,closed_api,text,2020-02-12,4
+M002,T5-XXL,Google,2020-02-24,2020,2,11.0,11.0,encoder_decoder,open_weights,text,2019-04-30,2
+M003,Turing-NLG,Microsoft,2020-02-13,2020,2,17.0,17.0,base,closed_internal,text,2019-05-19,2
+M004,GShard,Google,2020-06-30,2020,6,600.0,101.2,moe,research,text,2019-12-03,2
+M005,CTRL,Salesforce,2020-09-11,2020,9,1.6,1.6,base,open_weights,text,2020-05-14,2
+M006,BlenderBot,Meta,2020-04-30,2020,4,2.7,2.7,chat,open_weights,text,2019-08-04,2
+M007,Switch Transformer,Google,2021-01-11,2021,1,1600.0,284.9,moe,research,text,2020-08-14,2
+M008,Codex,OpenAI,2021-08-10,2021,8,12.0,12.0,code,closed_api,text+code,2021-04-12,2
+M009,Jurassic-1 Jumbo,AI21,2021-08-11,2021,8,178.0,178.0,base,closed_api,text,2020-11-14,2
+M010,Megatron-Turing NLG,Microsoft+NVIDIA,2021-10-11,2021,10,530.0,530.0,base,closed_internal,text,2020-12-15,2
+M011,Gopher,DeepMind,2021-12-08,2021,12,280.0,280.0,base,research,text,2021-03-13,2
+M012,GLaM,Google,2021-12-09,2021,12,1200.0,132.3,moe,research,text,2021-02-12,2
+M013,WuDao 2.0,BAAI,2021-06-01,2021,6,1750.0,226.9,moe,research,text,2020-08-05,2
+M014,ERNIE 3.0,Baidu,2021-07-05,2021,7,10.0,10.0,base,closed_api,text,2020-12-07,2
+M015,HyperCLOVA,Naver,2021-05-25,2021,5,204.0,204.0,base,closed_api,text,2020-12-26,2
+M016,GPT-3.5 (text-davinci-002),OpenAI,2022-03-15,2022,3,175.0,175.0,instruct,closed_api,text,2021-04-19,4
+M017,InstructGPT,OpenAI,2022-01-27,2022,1,175.0,175.0,instruct,closed_api,text,2021-04-02,4
+M018,Chinchilla,DeepMind,2022-03-29,2022,3,70.0,70.0,base,research,text,2021-07-02,4
+M019,PaLM,Google,2022-04-04,2022,4,540.0,540.0,base,research,text,2021-09-06,4
+M020,OPT-175B,Meta,2022-05-03,2022,5,175.0,175.0,base,open_weights,text,2021-07-07,4
+M021,BLOOM,BigScience,2022-07-11,2022,7,176.0,176.0,base,open_weights,text,2021-11-13,4
+M022,Galactica,Meta,2022-11-15,2022,11,120.0,120.0,scientific,open_weights,text,2022-04-19,4
+M023,ChatGPT (GPT-3.5),OpenAI,2022-11-30,2022,11,175.0,175.0,chat,closed_api,text,2022-05-04,4
+M024,Sparrow,DeepMind,2022-09-22,2022,9,70.0,70.0,chat,research,text,2022-04-25,4
+M025,Flan-T5,Google,2022-10-20,2022,10,11.0,11.0,instruct,open_weights,text,2022-06-22,4
+M026,YaLM 100B,Yandex,2022-06-23,2022,6,100.0,100.0,base,open_weights,text,2021-10-26,4
+M027,LLaMA (65B),Meta,2023-02-24,2023,2,65.0,65.0,base,research,text,2022-03-31,16
+M028,GPT-4,OpenAI,2023-03-14,2023,3,1760.0,1760.0,instruct,closed_api,multimodal,2022-11-14,8
+M029,Claude 1,Anthropic,2023-03-14,2023,3,137.0,137.0,chat,closed_api,text,2022-05-18,16
+M030,PaLM 2,Google,2023-05-10,2023,5,340.0,340.0,chat,closed_api,text,2022-07-14,16
+M031,Falcon-40B,TII,2023-05-25,2023,5,40.0,40.0,base,open_weights,text,2022-11-26,16
+M032,Vicuna-13B,LMSYS,2023-03-30,2023,3,13.0,13.0,chat,open_weights,text,2022-07-03,16
+M033,Alpaca,Stanford,2023-03-13,2023,3,7.0,7.0,instruct,open_weights,text,2022-10-14,16
+M034,Claude 2,Anthropic,2023-07-11,2023,7,137.0,137.0,chat,closed_api,text,2022-09-14,100
+M035,LLaMA 2 (70B),Meta,2023-07-18,2023,7,70.0,70.0,chat,open_weights,text,2022-10-21,16
+M036,Code LLaMA,Meta,2023-08-24,2023,8,34.0,34.0,code,open_weights,text+code,2023-02-25,16
+M037,Mistral 7B,Mistral,2023-09-27,2023,9,7.3,7.3,base,open_weights,text,2023-05-30,16
+M038,Falcon-180B,TII,2023-09-06,2023,9,180.0,180.0,base,open_weights,text,2022-10-11,16
+M039,Yi-34B,01.AI,2023-11-06,2023,11,34.0,34.0,base,open_weights,text,2023-04-10,16
+M040,Mixtral 8x7B,Mistral,2023-12-08,2023,12,46.7,7.6,moe,open_weights,text,2023-01-12,16
+M041,Gemini 1.0 Ultra,Google,2023-12-06,2023,12,540.0,540.0,chat,closed_api,multimodal,2023-02-09,16
+M042,Gemini 1.0 Pro,Google,2023-12-06,2023,12,137.0,137.0,chat,closed_api,multimodal,2023-07-09,16
+M043,Qwen-72B,Alibaba,2023-11-30,2023,11,72.0,72.0,base,open_weights,text,2023-06-03,16
+M044,DeepSeek 67B,DeepSeek,2023-11-29,2023,11,67.0,67.0,base,open_weights,text,2023-05-03,16
+M045,Claude 2.1,Anthropic,2023-11-21,2023,11,137.0,137.0,chat,closed_api,text,2023-04-25,100
+M046,GPT-4 Turbo,OpenAI,2023-11-06,2023,11,1760.0,1760.0,chat,closed_api,multimodal,2023-07-09,128
+M047,Inflection-2,Inflection,2023-11-22,2023,11,175.0,175.0,chat,closed_api,text,2023-03-27,16
+M048,Gemini 1.5 Pro,Google,2024-02-15,2024,2,137.0,137.0,chat,closed_api,multimodal,2023-09-18,1000
+M049,Claude 3 Opus,Anthropic,2024-03-04,2024,3,137.0,137.0,chat,closed_api,multimodal,2023-06-08,200
+M050,Claude 3 Sonnet,Anthropic,2024-03-04,2024,3,70.0,70.0,chat,closed_api,multimodal,2023-06-08,200
+M051,Claude 3 Haiku,Anthropic,2024-03-13,2024,3,13.0,13.0,chat,closed_api,multimodal,2023-04-18,200
+M052,Mistral Large,Mistral,2024-02-26,2024,2,123.0,123.0,chat,closed_api,text,2023-06-01,64
+M053,LLaMA 3 (8B),Meta,2024-04-18,2024,4,8.0,8.0,chat,open_weights,text,2023-10-21,64
+M054,LLaMA 3 (70B),Meta,2024-04-18,2024,4,70.0,70.0,chat,open_weights,text,2023-05-24,64
+M055,GPT-4o,OpenAI,2024-05-13,2024,5,200.0,200.0,chat,closed_api,multimodal,2023-10-16,128
+M056,Gemini 1.5 Flash,Google,2024-05-14,2024,5,8.0,8.0,chat,closed_api,multimodal,2023-11-16,1000
+M057,Claude 3.5 Sonnet,Anthropic,2024-06-20,2024,6,175.0,175.0,chat,closed_api,multimodal,2023-07-26,200
+M058,DeepSeek V2,DeepSeek,2024-05-06,2024,5,236.0,32.5,moe,open_weights,text,2023-11-08,64
+M059,Qwen 2 (72B),Alibaba,2024-06-07,2024,6,72.0,72.0,chat,open_weights,multimodal,2023-08-12,64
+M060,Mistral Nemo,Mistral,2024-07-18,2024,7,12.0,12.0,chat,open_weights,text,2024-02-19,64
+M061,LLaMA 3.1 (405B),Meta,2024-07-23,2024,7,405.0,405.0,chat,open_weights,text,2023-12-26,64
+M062,LLaMA 3.1 (70B),Meta,2024-07-23,2024,7,70.0,70.0,chat,open_weights,text,2024-02-24,64
+M063,Gemma 2 (27B),Google,2024-06-27,2024,6,27.0,27.0,chat,open_weights,text,2023-10-01,64
+M064,GPT-4o mini,OpenAI,2024-07-18,2024,7,8.0,8.0,chat,closed_api,multimodal,2023-12-21,128
+M065,Phi-3.5,Microsoft,2024-08-20,2024,8,3.8,3.8,chat,open_weights,text,2024-02-22,64
+M066,Grok-2,xAI,2024-08-14,2024,8,314.0,314.0,chat,closed_api,text,2024-03-17,64
+M067,o1-preview,OpenAI,2024-09-12,2024,9,200.0,200.0,reasoning,closed_api,text,2024-01-16,128
+M068,o1-mini,OpenAI,2024-09-12,2024,9,30.0,30.0,reasoning,closed_api,text,2023-12-17,128
+M069,Claude 3.5 Haiku,Anthropic,2024-10-22,2024,10,20.0,20.0,chat,closed_api,multimodal,2023-11-27,200
+M070,LLaMA 3.2 (90B Vision),Meta,2024-09-25,2024,9,90.0,90.0,chat,open_weights,multimodal,2024-02-28,64
+M071,Qwen 2.5 (72B),Alibaba,2024-09-19,2024,9,72.0,72.0,chat,open_weights,multimodal,2024-04-22,64
+M072,Mistral Large 2,Mistral,2024-07-24,2024,7,123.0,123.0,chat,closed_api,text,2023-09-28,64
+M073,DeepSeek V3,DeepSeek,2024-12-26,2024,12,671.0,83.9,moe,open_weights,text,2024-03-31,64
+M074,Gemini 2.0 Flash,Google,2024-12-11,2024,12,50.0,50.0,chat,closed_api,multimodal,2024-03-16,64
+M075,o1,OpenAI,2024-12-05,2024,12,300.0,300.0,reasoning,closed_api,text,2024-02-09,128
+M076,Claude 3.5 Sonnet (New),Anthropic,2024-10-22,2024,10,200.0,200.0,chat,closed_api,multimodal,2023-12-27,200
+M077,DeepSeek R1,DeepSeek,2025-01-20,2025,1,671.0,671.0,reasoning,open_weights,text,2024-06-24,200
+M078,o3-mini,OpenAI,2025-01-31,2025,1,50.0,50.0,reasoning,closed_api,text,2024-04-06,200
+M079,Gemini 2.0 Pro,Google,2025-02-05,2025,2,200.0,200.0,chat,closed_api,multimodal,2024-04-11,2000
+M080,Claude 3.7 Sonnet,Anthropic,2025-02-24,2025,2,250.0,250.0,reasoning,closed_api,multimodal,2024-07-29,200
+M081,Grok-3,xAI,2025-02-17,2025,2,500.0,500.0,chat,closed_api,multimodal,2024-03-24,200
+M082,GPT-4.5,OpenAI,2025-02-27,2025,2,1200.0,1200.0,chat,closed_api,multimodal,2024-08-31,200
+M083,Qwen 2.5 Max,Alibaba,2025-01-28,2025,1,325.0,36.1,moe,closed_api,multimodal,2024-08-31,200
+M084,LLaMA 4 (109B),Meta,2025-04-05,2025,4,109.0,109.0,chat,open_weights,multimodal,2024-07-09,200
+M085,LLaMA 4 Maverick,Meta,2025-04-05,2025,4,400.0,40.2,moe,open_weights,multimodal,2024-06-09,200
+M086,LLaMA 4 Behemoth,Meta,2025-04-05,2025,4,2000.0,325.9,moe,research,multimodal,2024-11-06,200
+M087,Gemini 2.5 Pro,Google,2025-03-25,2025,3,400.0,400.0,reasoning,closed_api,multimodal,2024-05-29,2000
+M088,o4-mini,OpenAI,2025-04-16,2025,4,80.0,80.0,reasoning,closed_api,multimodal,2024-07-20,200
+M089,o3,OpenAI,2025-04-16,2025,4,800.0,800.0,reasoning,closed_api,multimodal,2024-09-18,200
+M090,Claude 4 Opus,Anthropic,2025-05-22,2025,5,500.0,500.0,reasoning,closed_api,multimodal,2024-08-25,200
+M091,Claude 4 Sonnet,Anthropic,2025-05-22,2025,5,250.0,250.0,chat,closed_api,multimodal,2024-11-23,200
+M092,Mistral Medium 3,Mistral,2025-05-07,2025,5,70.0,70.0,chat,closed_api,multimodal,2024-07-11,200
+M093,DeepSeek V3.1,DeepSeek,2025-08-21,2025,8,685.0,99.7,moe,open_weights,multimodal,2024-12-24,200
+M094,DeepSeek R2,DeepSeek,2025-09-15,2025,9,685.0,685.0,reasoning,open_weights,multimodal,2025-02-17,200
+M095,Grok-4,xAI,2025-07-09,2025,7,800.0,800.0,reasoning,closed_api,multimodal,2025-03-11,200
+M096,Gemini 3.0 Pro,Google,2025-09-30,2025,9,600.0,600.0,reasoning,closed_api,multimodal,2025-05-03,2000
+M097,Claude 4.5 Sonnet,Anthropic,2025-09-29,2025,9,350.0,350.0,chat,closed_api,multimodal,2025-05-02,200
+M098,Claude 4.5 Opus,Anthropic,2025-10-15,2025,10,700.0,700.0,reasoning,closed_api,multimodal,2025-06-17,200
+M099,GPT-5,OpenAI,2025-08-07,2025,8,2500.0,2500.0,reasoning,closed_api,multimodal,2025-01-09,200
+M100,o5,OpenAI,2025-11-15,2025,11,1200.0,1200.0,reasoning,closed_api,multimodal,2025-02-18,200
+M101,LLaMA 4.5,Meta,2025-10-20,2025,10,200.0,200.0,chat,open_weights,multimodal,2025-01-23,200
+M102,Qwen 3 (200B),Alibaba,2025-11-12,2025,11,200.0,200.0,chat,open_weights,multimodal,2025-04-16,200
+M103,Claude Opus 4.6,Anthropic,2026-02-01,2026,2,750.0,750.0,reasoning,closed_api,multimodal,2025-04-07,200
+M104,Claude Sonnet 4.6,Anthropic,2026-02-01,2026,2,400.0,400.0,chat,closed_api,multimodal,2025-06-06,200
+M105,Claude Haiku 4.5,Anthropic,2026-02-01,2026,2,80.0,80.0,chat,closed_api,multimodal,2025-10-04,200
+M106,GPT-5.5,OpenAI,2026-03-15,2026,3,3000.0,3000.0,reasoning,closed_api,multimodal,2025-05-19,200
+M107,Gemini 3.5 Pro,Google,2026-04-10,2026,4,800.0,800.0,reasoning,closed_api,multimodal,2025-08-13,200
+M108,Grok-5,xAI,2026-03-01,2026,3,1000.0,1000.0,reasoning,closed_api,multimodal,2025-06-04,200
+M109,DeepSeek V4,DeepSeek,2026-04-22,2026,4,850.0,850.0,reasoning,open_weights,multimodal,2025-08-25,200
+M110,LLaMA 5 (250B),Meta,2026-04-30,2026,4,250.0,250.0,chat,open_weights,multimodal,2025-09-02,200
+M111,Claude Opus 4.7,Anthropic,2026-05-15,2026,5,850.0,850.0,reasoning,closed_api,multimodal,2026-01-15,200
+M112,Qwen 3.5 Max,Alibaba,2026-03-20,2026,3,500.0,62.2,moe,closed_api,multimodal,2025-07-23,200
+M113,Mistral Ultra,Mistral,2026-04-05,2026,4,400.0,400.0,reasoning,closed_api,multimodal,2025-08-08,200

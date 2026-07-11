@@ -1,0 +1,58 @@
+event_id,date,year,month,milestone_name,organization,milestone_type,significance_score,description,is_product_launch,is_research,is_open_source,is_reasoning
+E001,2020-05-28,2020,5,GPT-3 paper,OpenAI,scaling,9,Few-shot learning emerges with 175B params,0,1,0,0
+E002,2020-11-30,2020,11,AlphaFold 2,DeepMind,domain_breakthrough,10,Protein structure prediction at near-experimental accuracy,0,0,0,0
+E003,2021-01-05,2021,1,DALL-E paper,OpenAI,multimodal,8,Text-to-image generation,0,0,0,0
+E004,2021-01-11,2021,1,Switch Transformer,Google,architecture,7,First trillion-parameter MoE,0,0,0,0
+E005,2021-07-15,2021,7,Codex / GitHub Copilot,OpenAI/GitHub,product,9,AI coding assistant goes public,1,0,0,0
+E006,2021-08-10,2021,8,Foundation Models paper,Stanford CRFM,concept,8,Term 'foundation models' coined,0,1,0,0
+E007,2022-03-29,2022,3,Chinchilla scaling laws,DeepMind,research,9,Optimal compute allocation 20 tokens/param,0,1,0,0
+E008,2022-04-04,2022,4,PaLM paper,Google,scaling,8,"540B model, chain-of-thought emergent",0,1,0,0
+E009,2022-04-13,2022,4,DALL-E 2,OpenAI,multimodal,9,Photorealistic text-to-image,0,0,0,0
+E010,2022-05-23,2022,5,Stable Diffusion,Stability AI,open_source,10,Open weights image generation,0,0,1,0
+E011,2022-08-22,2022,8,Stable Diffusion 1.4 public,Stability AI,open_source,9,Image gen democratized,0,0,1,0
+E012,2022-11-30,2022,11,ChatGPT launch,OpenAI,product,10,"Mass-market AI chatbot, 100M users in 2 months",1,0,0,0
+E013,2023-01-30,2023,1,ChatGPT Plus $20/mo,OpenAI,monetization,7,Paid AI subscription model,0,0,0,0
+E014,2023-02-07,2023,2,Bing Chat / Sydney,Microsoft,product,8,Chat in search,1,0,0,0
+E015,2023-02-24,2023,2,LLaMA release,Meta,open_source,9,Open model weights for research,0,0,1,0
+E016,2023-03-14,2023,3,GPT-4,OpenAI,scaling,10,Multimodal frontier model,0,1,0,0
+E017,2023-03-14,2023,3,Claude 1,Anthropic,competition,8,Anthropic enters market,1,0,0,0
+E018,2023-03-21,2023,3,Stanford Alpaca,Stanford,research,7,Instruction tuning on LLaMA,0,1,0,0
+E019,2023-05-10,2023,5,PaLM 2 / Bard,Google,competition,8,Google responds,1,0,0,0
+E020,2023-07-11,2023,7,Claude 2 100K context,Anthropic,long_context,8,Long context era begins,0,0,0,0
+E021,2023-07-18,2023,7,LLaMA 2 commercial,Meta,open_source,10,Open weights with commercial use,0,0,1,0
+E022,2023-09-25,2023,9,DALL-E 3 in ChatGPT,OpenAI,multimodal,8,Image gen integrated in chat,0,0,0,0
+E023,2023-11-06,2023,11,GPT-4 Turbo + GPTs,OpenAI,product,9,"Custom GPTs, 128K context",1,0,0,0
+E024,2023-11-17,2023,11,Sam Altman fired & rehired,OpenAI,governance,9,OpenAI board crisis,0,0,0,0
+E025,2023-12-06,2023,12,Gemini 1.0,Google,competition,8,Gemini launch with controversy,1,0,0,0
+E026,2023-12-08,2023,12,Mixtral 8x7B,Mistral,open_source,9,Open MoE breakthrough,0,0,1,0
+E027,2024-02-15,2024,2,Sora preview,OpenAI,multimodal,9,Text-to-video generation,0,0,0,0
+E028,2024-02-15,2024,2,Gemini 1.5 1M context,Google,long_context,9,Million-token context window,0,0,0,0
+E029,2024-03-04,2024,3,Claude 3 family,Anthropic,competition,9,Claude 3 Opus tops benchmarks,1,0,0,0
+E030,2024-04-18,2024,4,LLaMA 3,Meta,open_source,9,Open model approaches frontier,0,0,1,0
+E031,2024-05-13,2024,5,GPT-4o,OpenAI,multimodal,9,Real-time voice/vision,0,0,0,0
+E032,2024-05-14,2024,5,Project Astra,Google,multimodal,7,Real-time multimodal agent,0,0,0,0
+E033,2024-06-20,2024,6,Claude 3.5 Sonnet,Anthropic,frontier,9,Frontier with mid-size model,1,0,0,0
+E034,2024-07-23,2024,7,LLaMA 3.1 405B,Meta,open_source,10,Frontier-class open weights,0,0,1,0
+E035,2024-09-12,2024,9,OpenAI o1 (Strawberry),OpenAI,reasoning,10,Test-time reasoning breakthrough,0,0,0,1
+E036,2024-10-22,2024,10,Claude 3.5 Sonnet (New),Anthropic,frontier,8,Iteration with computer use,1,0,0,0
+E037,2024-12-05,2024,12,OpenAI o1 full + o1 Pro,OpenAI,reasoning,9,$200/mo Pro tier,0,0,0,1
+E038,2024-12-26,2024,12,DeepSeek V3 stuns,DeepSeek,open_source,10,Chinese frontier-class open MoE,0,0,1,0
+E039,2025-01-20,2025,1,DeepSeek R1 release,DeepSeek,reasoning,10,Open reasoning model rivals o1,0,0,0,1
+E040,2025-01-27,2025,1,DeepSeek market panic,global,market,10,NVIDIA -17% on cost shock,0,0,0,0
+E041,2025-02-17,2025,2,Grok-3,xAI,competition,8,Massive compute training (200K H100),1,0,0,0
+E042,2025-02-24,2025,2,Claude 3.7 Sonnet + hybrid,Anthropic,reasoning,8,Hybrid reasoning/chat model,0,0,0,1
+E043,2025-02-27,2025,2,GPT-4.5 (Orion),OpenAI,scaling,7,Largest non-reasoning model,0,1,0,0
+E044,2025-04-05,2025,4,LLaMA 4,Meta,open_source,8,Multimodal MoE family,0,0,1,0
+E045,2025-04-16,2025,4,o3 + o4-mini,OpenAI,reasoning,9,Frontier reasoning with tools,0,0,0,1
+E046,2025-05-22,2025,5,Claude 4 family,Anthropic,frontier,9,Opus 4 / Sonnet 4 launch,1,0,0,0
+E047,2025-07-09,2025,7,Grok-4,xAI,competition,8,xAI reasoning model,1,0,0,0
+E048,2025-08-07,2025,8,GPT-5,OpenAI,frontier,10,Unified reasoning + chat,1,0,0,0
+E049,2025-09-29,2025,9,Claude 4.5 Sonnet,Anthropic,iteration,8,Iterative improvement,1,0,0,0
+E050,2025-09-30,2025,9,Gemini 3.0 Pro,Google,frontier,9,Google catches up,1,0,0,0
+E051,2025-10-15,2025,10,Claude 4.5 Opus,Anthropic,frontier,8,Reasoning frontier,1,0,0,0
+E052,2025-11-15,2025,11,OpenAI o5,OpenAI,reasoning,9,Next-gen reasoning,0,0,0,1
+E053,2026-02-01,2026,2,Claude 4.6 family,Anthropic,iteration,8,Opus/Sonnet/Haiku 4.6,1,0,0,0
+E054,2026-03-15,2026,3,GPT-5.5,OpenAI,frontier,9,Mid-cycle frontier update,1,0,0,0
+E055,2026-04-10,2026,4,Gemini 3.5 Pro,Google,frontier,8,Long-context multimodal frontier,1,0,0,0
+E056,2026-04-22,2026,4,DeepSeek V4,DeepSeek,open_source,9,Open frontier challenge continues,0,0,1,0
+E057,2026-05-15,2026,5,Claude Opus 4.7,Anthropic,frontier,9,Latest Anthropic flagship,1,0,0,0
